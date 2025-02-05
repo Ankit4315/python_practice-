@@ -1,16 +1,16 @@
 def add(a,b):
-  return a+b
+  return print(a+b)
 
 def multi(a,b):
-  return a*b
+  return print(a*b)
 
 def sub(a,b):
-  return a-b
+  return print(a-b)
 
 def div(a,b):
   if(b==0):
     return print("not divisibale by zero")
-  return a/b
+  return print(a/b)
 
 def cal():
   print("select your choise")
