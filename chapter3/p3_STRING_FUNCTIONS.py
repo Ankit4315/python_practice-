@@ -11,3 +11,32 @@ print(name.endswith("iti")) #false
 
 print(name.startswith("an")) #true
 print(name.startswith("ant")) #false
+
+# 3. string.count("c") – counts the total number of occurrences of any character.
+
+str = "ankit"
+count = str.count("r")
+print(count) # Output: 0
+print(str.count('a')) # Output: 1
+
+# 4. the first character of a given string.
+str = "ankit"
+capitalized_string = str.capitalize()
+print(capitalized_string) # Output: "Ankit"
+
+# 5. string.find(word) – This function friends a word and returns the index of first
+# occurrence of that word in the string.
+str = "ankit"
+index = str.find("I")
+print(index) # Output: 3 #it return 3 becouse it find the index of i if the velue is not present in the string thne it return -1 and its is case sensitive
+
+
+# 6. string.replace (old word, new word ) – This function replace the old word with
+# new word in the entire string.
+
+str = "ankit"
+replaced_string = str.replace("t", "i")
+print(replaced_string) # Output: "ankii"
+
+re = str.replace("ankit","goolu")  #it aslo replce the whole string 
+print(re) # output: "goolu"
