@@ -15,6 +15,10 @@ AN EXAMPLE  DEMONSTRATING  RANGE () FUNCTION.
 for i in range(0,6):
     print(i)
 
+name = ['ankit', 'jitendra']
+for i in name:
+    print(f"{i} dhakad")
 
-for i in range(0,50,10):
-    print(i, end=" ")
+for i in range(0,50):
+    print(i+1, end=" ")
+    
